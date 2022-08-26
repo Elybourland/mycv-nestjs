@@ -12,3 +12,6 @@ GET http://localhost:3000/auth/1
 
 ### Find all users
 GET http://localhost:3000/auth?email=test1@test.com
+
+### Removing a user
+DELETE http://localhost:3000/auth/1
