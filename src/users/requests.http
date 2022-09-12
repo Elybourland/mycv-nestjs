@@ -3,8 +3,8 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-  "email": "test1@test.com",
-  "password": "hello1234"
+  "email": "test42069@testing.com",
+  "password": "hello694201234"
 }
 
 ### Find a particular user with a given ID
