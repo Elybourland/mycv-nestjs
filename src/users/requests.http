@@ -32,3 +32,9 @@ Content-Type: application/json
 {
   "password": "bye1234"
 }
+
+### Set a color
+GET http://localhost:3000/auth/colors/red
+
+### Get a color
+GET http://localhost:3000/auth/colors
