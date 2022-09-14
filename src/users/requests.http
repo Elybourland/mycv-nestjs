@@ -7,6 +7,9 @@ Content-Type: application/json
   "password": "12345"
 }
 
+### Get Current User
+GET http://localhost:3000/auth/whoami
+
 ### Sign in with user
 POST http://localhost:3000/auth/signin
 Content-Type: application/json
