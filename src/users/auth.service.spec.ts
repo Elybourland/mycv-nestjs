@@ -3,6 +3,10 @@ import { AuthService } from "./auth.service";
 import { UsersService } from "./users.service";
 import { User } from "./user.entity";
 
+// npm run test:watch
+// press p
+// auth.service.spec
+
 describe('AuthService', () => {
   let service: AuthService;
   let fakeUsersService: Partial<UsersService>;
